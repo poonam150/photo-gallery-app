@@ -1,30 +1,75 @@
-# React Photo Gallery App
+# React Photo Gallery
 
-This project is a responsive photo gallery built using **React + Vite + Tailwind CSS**.
+A responsive photo gallery application built using **React, Vite, and Tailwind CSS**.
+The app fetches images from the Picsum API and allows users to search photos by author and mark favorites.
+
+## Live Demo
+
+https://photo-gallery-app-tawny.vercel.app/
+
+## GitHub Repository
+
+https://github.com/poonam150/photo-gallery-app
 
 ## Features
-- Fetch photos from Picsum API
-- Responsive photo grid
-- Search photos by author
-- Mark photos as favorites
-- Favorites persist using localStorage
-- Optimized rendering using React hooks
 
-## Technologies Used
-- React
-- Vite
-- Tailwind CSS
-- Custom Hooks
-- useReducer
-- useMemo
-- useCallback
+* Fetch photos from the **Picsum API**
+* Responsive **photo grid layout**
+* **Search photos by author**
+* **Favorite photos** with heart toggle
+* Favorites persist using **localStorage**
+* Performance optimization using **React hooks**
 
-## API
-Photos are fetched from:
+## Tech Stack
+
+* React (Functional Components)
+* Vite
+* Tailwind CSS
+* useReducer
+* useMemo
+* useCallback
+* Custom Hooks
+
+## Project Structure
+
+```
+src
+ ├ components
+ │   └ Gallery.jsx
+ ├ hooks
+ │   └ useFetchPhotos.js
+ ├ reducer
+ │   └ favoritesReducer.js
+ ├ App.jsx
+ └ main.jsx
+```
+
+## How to Run Locally
+
+Clone the repository
+
+```
+git clone https://github.com/poonam150/photo-gallery-app.git
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run development server
+
+```
+npm run dev
+```
+
+## API Used
+
 https://picsum.photos/v2/list?limit=30
 
-## How to Run
+## Author
 
-1. Clone the repository
-2. Install dependencies
+Poonam
+
 
